@@ -3,8 +3,9 @@ const { pathsToModuleNameMapper } = require('ts-jest/utils');
 const { compilerOptions } = require('./tsconfig.paths.json');
 
 module.exports = {
+  preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+  testPathIgnorePatterns: ['/node_modules/'],
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
