@@ -12,17 +12,17 @@ export const theme = {
       60: 'var(--colors-secondary-60)',
       40: 'var(--colors-secondary-40)',
     },
-    light: {
-      100: 'var(--colors-light-100)',
-      80: 'var(--colors-light-80)',
-      60: 'var(--colors-light-60)',
-      40: 'var(--colors-light-40)',
+    background: {
+      100: 'var(--colors-background-100)',
+      80: 'var(--colors-background-80)',
+      60: 'var(--colors-background-60)',
+      40: 'var(--colors-background-40)',
     },
-    dark: {
-      100: 'var(--colors-dark-100)',
-      80: 'var(--colors-dark-80)',
-      60: 'var(--colors-dark-60)',
-      40: 'var(--colors-dark-40)',
+    foreground: {
+      100: 'var(--colors-foreground-100)',
+      80: 'var(--colors-foreground-80)',
+      60: 'var(--colors-foreground-60)',
+      40: 'var(--colors-foreground-40)',
     },
     error: {
       100: 'var(--colors-error-100)',
@@ -41,6 +41,9 @@ export const theme = {
       80: 'var(--colors-warning-80)',
       60: 'var(--colors-warning-60)',
       40: 'var(--colors-warning-40)',
+    },
+    base: {
+      text: 'var(--colors-text-base)',
     },
     gradients: {
       primary: {

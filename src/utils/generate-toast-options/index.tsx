@@ -9,13 +9,13 @@ export const generateToastOptions = ({ colors }: Theme): ToastOptions => ({
   success: {
     iconTheme: {
       primary: colors.success[100],
-      secondary: colors.light[100],
+      secondary: colors.background[100],
     },
   },
   error: {
     iconTheme: {
       primary: colors.error[100],
-      secondary: colors.light[100],
+      secondary: colors.background[100],
     },
   },
 });

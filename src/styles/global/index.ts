@@ -21,8 +21,8 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     height: auto;
-    background: ${({ theme }) => theme.colors.light[100]};
-    color: ${({ theme }) => theme.colors.dark[100]};
+    background: ${({ theme }) => theme.colors.background[100]};
+    color: ${({ theme }) => theme.colors.foreground[100]};
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;

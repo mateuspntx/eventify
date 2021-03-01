@@ -13,15 +13,15 @@ export const THEME_CSS_VARIABLES = css`
     --colors-secondary-60: #65bcff;
     --colors-secondary-40: #9ad3ff;
 
-    --colors-light-100: #ffffff;
-    --colors-light-80: #f1f4f9;
-    --colors-light-60: #99b3c6;
-    --colors-light-40: #809fb8;
+    --colors-foreground-100: #05162b;
+    --colors-foreground-80: #394455;
+    --colors-foreground-60: #6a7380;
+    --colors-foreground-40: #9ba1aa;
 
-    --colors-dark-100: #05162b;
-    --colors-dark-80: #394455;
-    --colors-dark-60: #6a7380;
-    --colors-dark-40: #9ba1aa;
+    --colors-background-100: #ffffff;
+    --colors-background-80: #f1f4f9;
+    --colors-background-60: #99b3c6;
+    --colors-background-40: #809fb8;
 
     --colors-error-100: #ea3a3d;
     --colors-error-80: #ef6165;
@@ -37,6 +37,8 @@ export const THEME_CSS_VARIABLES = css`
     --colors-warning-80: #fac77a;
     --colors-warning-60: #fbd59b;
     --colors-warning-40: #fde3bd;
+
+    --colors-text-base: #ffffff;
 
     --colors-gradient-primary-0: var(--colors-primary-100);
     --colors-gradient-primary-100: #7c4ef1;
@@ -56,15 +58,15 @@ export const THEME_CSS_VARIABLES = css`
     --colors-secondary-60: #65bcff;
     --colors-secondary-40: #9ad3ff;
 
-    --colors-dark-100: #ffffff;
-    --colors-dark-80: #f1f4f9;
-    --colors-dark-60: #99b3c6;
-    --colors-dark-40: #809fb8;
+    --colors-foreground-100: #ffffff;
+    --colors-foreground-80: #f1f4f9;
+    --colors-foreground-60: #99b3c6;
+    --colors-foreground-40: #809fb8;
 
-    --colors-light-100: #05162b;
-    --colors-light-80: #394455;
-    --colors-light-60: #6a7380;
-    --colors-light-40: #9ba1aa;
+    --colors-background-100: #05162b;
+    --colors-background-80: #394455;
+    --colors-background-60: #6a7380;
+    --colors-background-40: #9ba1aa;
 
     --colors-error-100: #ea3a3d;
     --colors-error-80: #ef6165;
@@ -80,6 +82,8 @@ export const THEME_CSS_VARIABLES = css`
     --colors-warning-80: #fac77a;
     --colors-warning-60: #fbd59b;
     --colors-warning-40: #fde3bd;
+
+    --colors-text-base: #ffffff;
 
     --colors-primary-gradient-0: var(--colors-primary-100);
     --colors-primary-gradient-100: #7c4ef1;
