@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the button 1`] = `
+.c0 {
+  color: var(--colors-text-base);
+  background: var(--colors-primary-100);
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.c0 > svg + span {
+  margin-left: 0.75rem;
+}
+
+.c0:disabled {
+  background: var(--colors-background-40);
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Submit
+</button>
+`;
+
+exports[`<Button /> should render the button with icon 1`] = `
+.c0 {
+  color: var(--colors-text-base);
+  background: var(--colors-primary-100);
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.c0 > svg + span {
+  margin-left: 0.75rem;
+}
+
+.c0:disabled {
+  background: var(--colors-background-40);
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <svg
+    data-testid="icon-test"
+    fill="none"
+    height="1em"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="22"
+      x2="11"
+      y1="2"
+      y2="13"
+    />
+    <polygon
+      points="22 2 15 22 11 13 2 9 22 2"
+    />
+  </svg>
+  <span>
+    Submit
+  </span>
+</button>
+`;
+
+exports[`<Button /> should render the button with only the icon 1`] = `
+.c0 {
+  color: var(--colors-text-base);
+  background: var(--colors-primary-100);
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.c0 > svg + span {
+  margin-left: 0.75rem;
+}
+
+.c0:disabled {
+  background: var(--colors-background-40);
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <svg
+    data-testid="icon-test"
+    fill="none"
+    height="1em"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="22"
+      x2="11"
+      y1="2"
+      y2="13"
+    />
+    <polygon
+      points="22 2 15 22 11 13 2 9 22 2"
+    />
+  </svg>
+</button>
+`;
